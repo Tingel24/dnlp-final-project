@@ -32,4 +32,4 @@ echo -e "Uncommitted Changes: $(git status --porcelain | wc -l)\n"
 
 # Run the script:
 python -c "import torch;  num_of_gpus = torch.cuda.device_count(); print('Number of GPU:',num_of_gpus);"
-»
+
